@@ -19,6 +19,9 @@
         android:background="@drawable/shape_button">
 
         <ImageView
+            android:layout_marginLeft="5dp"
+
+            android:layout_gravity="center_vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@mipmap/icon_name" />
@@ -26,7 +29,9 @@
         <EditText
             android:id="@+id/et_name"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="#00ffffff"
+            android:layout_height="45dp"
             android:hint="请输入用户名"
             android:textColorHint="#ffffff" />
 
@@ -40,6 +45,8 @@
         android:background="@drawable/shape_button">
 
         <ImageView
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center_vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@mipmap/icon_password" />
@@ -47,7 +54,9 @@
         <EditText
             android:id="@+id/et_password"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="#00ffffff"
+            android:layout_height="45dp"
             android:hint="请输入密码"
             android:textColorHint="#ffffff" />
 

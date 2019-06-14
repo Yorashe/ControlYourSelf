@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/pateo/IPDA_app/sdk_release/x37/ControlYourSelf/BaseRecyclerViewAdapterHelper/src/main/assets"/><source path="/home/pateo/IPDA_app/sdk_release/x37/ControlYourSelf/BaseRecyclerViewAdapterHelper/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/home/pateo/IPDA_app/sdk_release/x37/ControlYourSelf/BaseRecyclerViewAdapterHelper/src/debug/assets"/></dataSet></merger>

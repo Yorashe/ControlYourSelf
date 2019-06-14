@@ -4,7 +4,29 @@
             "outputFile": "/home/pateo/IPDA_app/sdk_release/x37/ControlYourSelf/BaseRecyclerViewAdapterHelper/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-w500dp-v13/values-w500dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/pateo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/77f4db7814bea54e49190027ce439643/res/values-w500dp/values-w500dp.xml",
+                    "source": "/home/pateo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/a3d70124a414ae7bdbea9c0e8369776a/res/values-w500dp/values-w500dp.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "283",
+                        "endColumns": "54",
+                        "endOffsets": "333"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/pateo/IPDA_app/sdk_release/x37/ControlYourSelf/BaseRecyclerViewAdapterHelper/build/intermediates/res/merged/androidTest/debug/values-w500dp-v13/values-w500dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/pateo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/a3d70124a414ae7bdbea9c0e8369776a/res/values-w500dp/values-w500dp.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",

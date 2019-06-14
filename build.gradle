@@ -10,13 +10,11 @@ buildscript {
         maven { url 'https://dl.bintray.com/umsdk/release' }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath 'com.android.tools.build:gradle:3.0.1'
+        classpath 'org.greenrobot:greendao-gradle-plugin:3.2.0'
 
-        // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle files
     }
 }
-
 allprojects {
     repositories {
         jcenter()
@@ -29,9 +27,9 @@ task clean(type: Delete) {
 }
 ext {
     minSdkVersion = 16
-    compileSdkVersion = 28
-    targetSdkVersion = 28
-    buildToolsVersion = '28.0.3'
+    compileSdkVersion = 23
+    targetSdkVersion = 23
+    buildToolsVersion = '26.0.2'
 
 
 }

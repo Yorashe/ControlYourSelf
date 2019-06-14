@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
@@ -17,15 +18,28 @@ android {
         }
     }
 }
+
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:28+'
+    compile 'com.android.support:appcompat-v7:23+'
     implementation project(':BaseRecyclerViewAdapterHelper')
     implementation project(':FlycoTabLayout_Lib')
+    compile 'com.github.citux:datetimepicker:0.2.0'
     compile 'com.github.clans:fab:1.6.4'
     implementation 'com.jakewharton:butterknife:8.4.0'
     annotationProcessor "com.jakewharton:butterknife-compiler:8.4.0"
-    implementation 'com.android.support:recyclerview-v7:28+'
-    implementation 'com.android.support:cardview-v7:28+'
+    implementation 'com.android.support:recyclerview-v7:23+'
+    implementation 'com.android.support:cardview-v7:23+'
+    implementation 'org.greenrobot:greendao:3.2.2'
+    // add library
+    implementation 'org.greenrobot:greendao-generator:3.0.0'
+    implementation 'com.android.support:design:23+'
+}
+
+
+greendao {
+    schemaVersion 1
+    daoPackage 'com.control.yourself.greendao.gen'
+    targetGenDir 'src/main/java'
 }
